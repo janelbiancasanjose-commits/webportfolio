@@ -1,0 +1,232 @@
+.navbar {
+width: 1680;
+height: 68;
+opacity: 1;
+
+background: #53424c;
+}
+
+nav a {
+    font-family: Domine;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    color: #cfcfcf !important;
+}
+
+#landing {
+    background: #b4a7b7;
+}
+
+#name {
+    font-family: Domine;
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 50px;
+    letter-spacing: -2%;
+    vertical-align: bottom;
+
+    color: #53424c;
+}
+
+#title {
+    font-family: Domine;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 35px;
+    letter-spacing: -2%;
+    vertical-align: bottom;
+
+    color: #53424c;
+}
+
+#me-box {
+    width: 350px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#me {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 0.68;
+    object-fit: contain;
+}
+
+#about-me {
+    color: white;
+}
+
+#base {
+    font-family: Domine;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: #b4a7b7;
+    background: #53424c;
+    border-radius: 20px;
+}
+
+#my-projects {
+    font-family: Domine;
+
+    background: #c7a3a0;
+    color: #53424c;
+}
+
+#e-commerce {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+#course-booking {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+#course-booking-app {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+#e-commerce-app {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+#airline-mockup {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+#airline-prototype {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+#short-courses-one {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+#short-courses-two {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+#short-courses-three {
+    background-color: #D7BDBA;
+    border-radius: 5%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.image-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#tools {
+    background: #BEA5AC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.panel-inner {
+    font-family: Domine;
+	width: 75%;
+	margin-left: 250px;
+	margin-right: auto;
+	padding-top: 3.5rem;
+    color: #53424c;
+}
+
+#contact {
+    font-family: Domine;
+	font-weight: 600;
+	font-size: 40px;
+	color: #765C3D;
+}
+
+#contact-name,
+#contact-email,
+#contact-message {
+    font-family: Domine;
+	font-weight: 600;
+	font-size: 20px;
+	color: #53424c;
+}
+
+.form-control::placeholder {
+    font-family: Domine;
+	font-weight: 600;
+	font-size: 20px;
+	color: #cfcfcf !important;
+}
+
+.form-control {
+    font-family: Domine;
+    font-weight: 600;
+    font-size: 20px;
+    color: #765C3D !important;
+    padding: 14px;
+}
+
+.custom-btn {
+    font-family: Domine;
+	background-color: #53424c !important;
+	border: none !important;
+	border-radius: 50px !important;
+	padding: 0.75rem 2rem !important;
+	font-weight: 700 !important;
+	font-size: 1.25rem !important;
+	color: #cfcfcf !important;
+	display: inline-block;
+}
+
+.custom-btn:hover {
+	background-color: #b4a7b7 !important;
+}
+
+footer {
+    font-family: Domine;
+    color: #cfcfcf !important;
+	background-color: #53424c;
+;
+}
+
+#last-part {
+    background: #b4a7b7;
+}
+
