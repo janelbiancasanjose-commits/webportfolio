@@ -142,26 +142,10 @@ nav a {
 
 #tools {
     background: #BEA5AC;
+    font-family: Domine;
+    color: #53424c;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .panel-inner {
     font-family: Domine;
@@ -176,7 +160,7 @@ nav a {
     font-family: Domine;
 	font-weight: 600;
 	font-size: 40px;
-	color: #765C3D;
+	color: #53424c;
 }
 
 #contact-name,

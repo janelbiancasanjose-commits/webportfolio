@@ -18,6 +18,8 @@
   </head>
   <body>
 
+
+    <!-- Navbar Start -->
     <nav class="navbar navbar-light navbar-expand-lg bg-body-tertiary px-5 fixed-top" >
 		<div class="container-fluid">
 			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -38,6 +40,9 @@
 			</div>
 		</div>
 	  </nav>
+    <!-- Navbar End -->
+
+
 
     <!-- Landing Page -->
     <div class="container-fluid p-5" id="landing">
@@ -56,9 +61,11 @@
 			</div>
 		</div>
 	
+
+
     <!-- My Projects Start -->
-    <div id="my-projects" class="container-fluid">
-      <h2 class="text-center panel-inner">MY PROJECTS</h2>
+    <div id="my-projects" class="container-fluid py-5">
+      <h2 class="text-center">MY PROJECTS</h2>
 
       <!-- E-commerce API Documentation Start -->
     <section class="row mt-5">
@@ -170,52 +177,62 @@
       <!-- Short Courses Capstone Three End -->
     </div>
   </section>
+  <!-- My Projects End -->
   
 
-  <div class="container-fluid" id="tools"> 
-      <h2>TOOLS</h2>
+  <!-- Tools Start -->
+  <div class="container-fluid" id="tools">
+    <div class="row text-center align-items-start py-5">
+      <h2 class="text-center mb-5">TOOLS</h2>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h4 class="text-center fw-bold">FRONT END</h5>
+        <div id="core-tools" class="d-flex justify-content-center gap-3 flex-wrap">
+          <div id="html-bootstrap">
+            <img width="150" src="images/logo-html5.png"/>
+            <img width="150" src="images/logo-bootstrap.png"/>
+          </div>
+          <div id="css-js">
+            <img width="150" src="images/logo-css3.png"/>
+            <img width="150" src="images/logo-javascript.png"/>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-sm-12 col-md-4 col-lg-4">
+        <h4 class="text-center fw-bold">MERN</h5>
+        <div id="core-tools" class="d-flex justify-content-center gap-3 flex-wrap">
+          <div id="mongodb-expressjs">
+            <img width="150" src="images/logo-mongodb.png"/>
+            <img width="150" src="images/logo-expressjs.png"/>
+          </div>
+          <div id="react-node">
+            <img width="150" src="images/logo-react.png"/>
+            <img width="150" src="images/logo-nodejs.png"/>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h4 class="text-center fw-bold">OTHER TOOLS</h5>
+        <div id="core-tools" class="d-flex justify-content-center gap-3 flex-wrap">
+          <div id="heroku-git">
+            <img width="150" src="images/logo-heroku.png"/>
+            <img width="150" src="images/logo-git.png"/>
+          </div>
+          <div id="postman-sublime">
+            <img width="150" src="images/logo-postman.png"/>
+            <img width="150" src="images/logo-sublime-text-3.png"/>
+          </div>
+        </div>
+      </div>
+    </div> 
   </div>
-
-  <section class="text-center my-5">
-  <h4 class="mb-4 fw-bold text-primary">Front End</h4>
-  <div class="row justify-content-center">
-    <!-- Row 1 -->
-    <div class="col-6 col-md-3 mb-3">
-      <img src="./images/html.png" class="img-fluid" alt="HTML Logo" style="max-height:100px;">
-    </div>
-    <div class="col-6 col-md-3 mb-3">
-      <img src="./images/css.png" class="img-fluid" alt="CSS Logo" style="max-height:100px;">
-    </div>
-    <!-- Row 2 -->
-    <div class="col-6 col-md-3 mb-3">
-      <img src="./images/bootstrap.png" class="img-fluid" alt="Bootstrap Logo" style="max-height:100px;">
-    </div>
-    <div class="col-6 col-md-3 mb-3">
-      <img src="./images/javascript.png" class="img-fluid" alt="JavaScript Logo" style="max-height:100px;">
-    </div>
-  </div>
-</section>
+  <!-- Tools End -->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Contact Start -->
     <div class="container-fluid vh-100" id="last-part">
       <div class="row h-100">
         <!-- Picture -->
@@ -226,8 +243,8 @@
 
         <!-- Form/Text -->
         <div class="col-12 col-md-6 d-flex flex-column justify-content-start" id="contact-form">
-          <div class="panel-inner">
-            <h3 id="contact" class="mb-3 text-start">CONTACT ME</h3>
+          <div>
+            <h3 id="contact" class="mb-3 text-center py-5">CONTACT ME</h3>
           </div>
 
           <div id="form-section">
@@ -256,6 +273,9 @@
         </div>
       </div>
     </div>
+    <!-- Contact End -->
+
+
 
     <footer class="text-light py-3">
       <div class="container text-center">
